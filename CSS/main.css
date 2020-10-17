@@ -1,0 +1,92 @@
+body{
+    background-color:#efefef;
+    direction: rtl;
+}
+ul , li {
+    margin: 0 ;
+    padding: 0 ;
+    list-style: none;
+}
+.container{
+    background-color:#aaa;
+    width:100%;
+    margin: 10px auto;
+}
+header{
+    height: 100px;
+    background-color:#fc4c49;
+    
+}
+header nav ul li {
+    display: inline-block ;
+    padding: 10px ;
+    margin: 5px;
+    color:aliceblue;
+    font-weight: 900;
+}
+header nav ul {
+    margin: 25px 0px 0px 50px ;
+    font-family: 'Droid Arabic Kufi', serif;
+}
+.content{
+    height:600px;
+    background-color:#CCC;
+    overflow: hidden;
+}
+footer{
+    min-height:100px;
+    background-color:#DDD;
+}
+header .logo{
+    float:right;
+    width:20%;
+
+}
+header .logo img{
+    height:70px;
+    margin: 15px 8px;
+}
+header nav{
+    float:left;
+    margin-left: 200px;
+}
+.content .sidpar{
+    float:right;
+    width: 25% ;
+    height: 600px;
+    background-color: #FFC300 ;
+}
+.content .product{
+    float: left;
+    width: 75% ;
+    height: 600px;
+    background-color: #2B6EBF ;
+}
+footer .info{
+    height: 80px;
+    background-color: darkgray ;
+}
+footer .copyright{
+    height: 30px;
+    background-color: #353838 ;
+}
+.one , .two , .three {
+    background-color: #2BBF4D ;
+    font-family: 'Droid Arabic Kufi', serif;
+    font-weight: 900 ;
+    margin: auto ;
+    padding: 15px 55px;
+    border: 2px solid #DAF7A6 ;
+    border-radius: 10px;
+}
+.content .sidpar .kk{
+    font-family: 'Droid Arabic Kufi', serif;
+    font-weight: bolder ;
+    margin: 5px 20px  ;
+    padding: 2px;
+    color:#900C3F;
+}
+.product video{
+    width: 24%;
+    height:300px;
+}
